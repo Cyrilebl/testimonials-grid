@@ -67,6 +67,7 @@ h3 {
 }
 
 /* Header */
+
 .header {
   display: flex;
   align-items: center;
@@ -77,6 +78,14 @@ h3 {
 .header img {
   border-radius: 30px;
   width: 36px;
+}
+
+.daniel img {
+  border: 2px solid hsl(261, 76%, 71%);
+}
+
+.patrick img {
+  border: 2px solid var(--purple);
 }
 
 /* Text design */
