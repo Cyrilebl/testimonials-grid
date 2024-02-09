@@ -1,12 +1,13 @@
 :root {
   /* background-color */
+  --background-page: hsl(210, 46%, 95%);
   --purple: hsl(263, 55%, 52%);
   --grey: hsl(217, 19%, 35%);
   --dark-blue: hsl(219, 29%, 14%);
   --white: hsl(0, 0%, 100%);
 
   /* text-color */
-  --text-light-gray: hsl(0, 0%, 81%);
+  --text-light-grey: hsl(0, 0%, 81%);
   --text-grey: hsl(30, 10%, 34%);
 }
 
@@ -18,6 +19,7 @@
 }
 
 body {
+  background-color: var(--background-page);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -63,7 +65,7 @@ h3 {
 .testimonial {
   border-radius: 15px;
   padding: 30px;
-  box-shadow: 5px 5px 10px var(--text-light-gray);
+  box-shadow: 5px 5px 10px var(--text-light-grey);
 }
 
 /* Header */
@@ -85,7 +87,7 @@ h3 {
 .daniel,
 .jonathan,
 .patrick {
-  color: var(--text-light-gray);
+  color: var(--text-light-grey);
   font-size: 500;
 }
 
